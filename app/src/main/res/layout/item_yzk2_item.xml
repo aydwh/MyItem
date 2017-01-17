@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <android.support.v7.widget.CardView
+        app:cardCornerRadius="12dp"
+        android:layout_margin="4dp"
+        android:layout_width="match_parent"
+        android:layout_height="200dp">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageView
+                android:id="@+id/thumb"
+                android:scaleType="centerCrop"
+                android:src="@drawable/ic_default_cover"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+            <TextView
+                android:id="@+id/tv_viewnum"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#8034373b"
+                android:drawableLeft="@drawable/ic_player_content_number"
+                android:text="1.1万"
+                android:textColor="@color/white_80"
+                android:textSize="10sp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="10dp" />
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+    <LinearLayout
+        android:padding="10dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:id="@+id/avatar"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:padding="6dp"
+            android:src="@drawable/ic_default_head" />
+        <LinearLayout
+            android:layout_marginLeft="4dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_weight="1"
+                android:textSize="12dp"
+                android:id="@+id/nick"
+                android:text="nnnnnnnnnnn"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+            <TextView
+                android:layout_weight="1"
+                android:textSize="12dp"
+                android:text="tttttttt"
+                android:id="@+id/yzk_title"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

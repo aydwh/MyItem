@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cn.bingoogolapple.bgabanner.BGABanner
+    android:id="@+id/banner_yzk"
+    style="@style/BannerDefaultStyle"
+    android:layout_height="240dp"
+    android:scaleType="centerCrop"
+    app:banner_pointDrawable="@drawable/bga_banner_selector_point_solid"
+    app:banner_transitionEffect="rotate"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+</cn.bingoogolapple.bgabanner.BGABanner>

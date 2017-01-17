@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:weightSum="1">
+        <View
+            android:background="#FFE65110"
+            android:layout_gravity="center_vertical"
+            android:layout_width="3dp"
+            android:layout_height="20dp"/>
+        <TextView
+            android:text="xgybfxjfuky"
+            android:textSize="16dp"
+            android:paddingLeft="4dp"
+            android:layout_gravity="center_vertical"
+            android:id="@+id/textview_yzk_item"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/goToThisLive"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:drawableRight="@drawable/looklookl_selector"
+            android:layout_gravity="center_vertical"
+            android:text="瞅瞅"
+            android:paddingLeft="240dp"
+            android:textSize="11sp"
+            android:textColor="@drawable/btn_huihong_tx_selector"
+            android:layout_weight="0.05" />
+    </LinearLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycleview_yzk_item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </android.support.v7.widget.RecyclerView>
+</LinearLayout>

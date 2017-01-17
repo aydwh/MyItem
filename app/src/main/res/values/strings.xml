@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">MyItem</string>
+    <string name="drawer_open" translatable="true" />
+    <string name="drawer_close" translatable="true" />
+</resources>
